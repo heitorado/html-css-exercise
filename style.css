@@ -1,3 +1,8 @@
+*{
+  margin: 0; padding: 0; border: 0; outline: 0;
+}
+
+
 h1 {
   font-family: "Pacifico",sans-serif;
   font-size: 150px;
@@ -12,15 +17,7 @@ h2{
   font-weight: 400;
 }
 
-p{
-  font-family: 'Cherry Swash',cursive,sans-serif;
-  font-size: 16px;
-  color: black;
-  font-weight: 400;
-  padding: 10px 10px;
-}
-
-nav{
+.navbar{
   background-color: rgba(255, 255, 255, 0.8);
   overflow-y: auto;
   position: fixed;
@@ -31,15 +28,15 @@ nav{
   z-index: 100;
 }
 
-ul{
+.navbar ul{
   padding: 0;
 }
 
-li{
+.navbar li{
   color: black;
   display: inline-block;
   font-family: 'Gloria Hallelujah', cursive, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   margin: 16px 20px;
   text-transform: uppercase;
@@ -47,8 +44,8 @@ li{
 }
 .header-banner{
   background-image: url(http://www.dicasdemulher.com.br/wp-content/uploads/2015/10/sabonete-artesanal-3.jpg);
-  opacity:1;
   background-position: top center;
+  margin: auto;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -65,18 +62,28 @@ li{
 }
 
 .differentials{
-  margin: 40px auto;
+  margin: 40px;
   width: 60%;
+  display: inline-block;;
 }
 
 .value{
   border: 1px solid black;
-  padding: 40px 0px;
+  padding: 40px 40px;
   margin: 5px 0px;
   text-align: center;
   width: 300px;
+  height: auto;
+  display: inline-block;
 }
 
+.value p{
+  font-family: 'Cherry Swash',cursive,sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  padding: 20px 10px;
+}
 
 * {
   border: 0px solid #000
