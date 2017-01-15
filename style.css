@@ -8,6 +8,7 @@ h1 {
   font-size: 150px;
   color: black;
   font-weight: 400;
+  margin: 0;
 }
 
 h2{
@@ -30,6 +31,7 @@ h2{
 
 .navbar ul{
   padding: 0;
+  margin:0;
 }
 
 .navbar li{
@@ -40,8 +42,8 @@ h2{
   font-weight: 400;
   margin: 16px 20px;
   text-transform: uppercase;
-
 }
+
 .header-banner{
   background-image: url(http://www.dicasdemulher.com.br/wp-content/uploads/2015/10/sabonete-artesanal-3.jpg);
   background-position: top center;
@@ -62,8 +64,8 @@ h2{
 }
 
 .differentials{
-  margin: 40px;
-  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
 .value{
