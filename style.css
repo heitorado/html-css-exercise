@@ -63,15 +63,26 @@ h2{
   width: 60%;
 }
 
+.mid-section{
+  background-image: url(http://static-namu.s3-sa-east-1.amazonaws.com/materias/8399867223_sabonete.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0px;
+}
+
 .differentials{
 }
 
 .value{
-  border: 1px solid black;
+  border: 2px solid purple;
+  border-radius: 5px;
   padding: 40px 40px;
   margin: 5px 4%;
   height: 350px;
   text-align: center;
+  background-color: white;
 }
 
 .value p{
@@ -87,6 +98,24 @@ h2{
   font-size: 42px;
   color: black;
   font-weight: 400;
+}
+
+.motto{
+  text-align: center;
+  padding: 100px;
+  font-family: 'Dancing Script',cursive,sans-serif;
+}
+
+.motto h1{
+  text-align: center;
+  font-family: 'Indie Flower',cursive,sans-serif;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-size: 60px;
+}
+
+.motto a{
+  font-size: 38px;
 }
 
 * {
