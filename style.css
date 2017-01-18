@@ -107,6 +107,8 @@ h2{
 }
 
 .motto{
+  background-image: url(http://previews.123rf.com/images/digifuture/digifuture1305/digifuture130500012/19583736-Carbonated-Drink-Foam-Texture-Stock-Photo.jpg);
+  background-size: cover;
   text-align: center;
   padding: 100px;
   font-family: 'Dancing Script',cursive,sans-serif;
